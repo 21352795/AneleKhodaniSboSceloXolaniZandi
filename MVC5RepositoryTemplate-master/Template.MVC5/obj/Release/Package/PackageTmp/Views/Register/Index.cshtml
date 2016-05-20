@@ -1,0 +1,308 @@
+﻿@model Template.Model.RegisterNlogin.RegisterModel
+@{
+    ViewBag.Title = "Apply";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<script language="javascript">
+
+
+function show_row(){
+	// Make sure the element exists before calling it's properties
+    if (document.getElementById("PostalAddressInfo") != null){
+      // Toggle visibility between none and inline
+      if (document.getElementById("PostalAddressInfo").style.display == 'none'){
+        document.getElementById("PostalAddressInfo").style.display = 'inline';
+        document.getElementById("chkPostalAddress").checked = true;
+      }else{
+        document.getElementById("PostalAddressInfo").style.display = 'none';
+        document.getElementById("chkPostalAddress").checked = false;
+      }
+	}
+}
+</script>
+
+@using (Html.BeginForm("Index", "Register", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <!-- Steps ProgressBar - START -->
+<div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+    <div class="row">
+        <div class="progress" id="progress1">
+            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+            </div>
+            <span class="progress-type">Policy Application | Overall Progress</span>
+            <span class="progress-completed">0%</span>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="row step ">
+            <div id="div1" class="col-md-2 activestep" onclick="javascript: resetActive(event, 0);">
+                <span class="fa fa-pencil"></span>
+                <p>Personal</p>
+            </div>
+            <div class="col-md-2" >
+                <span class="fa fa-pencil"></span>
+                <p>Plan</p>
+            </div>
+            <div class="col-md-2" >
+                <span class="fa fa-pencil"></span>
+                <p>Beneficiaries</p>
+            </div>
+            <div class="col-md-2" >
+                <span class="fa fa-cloud-upload"></span>
+                <p>Submit Documents</p>
+            </div>
+
+            <div id="last" class="col-md-2" >
+                <span class="fa fa-star"></span>
+                <p>Finish</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Steps ProgressBar - END -->
+    <div class="shopper-informations">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="shopper-info">
+                    <p>Basic Information</p>                   
+                       
+                            <table>
+                                <tr>
+                                    <td width="120px">
+                                        @Html.Label("Select Title")
+                                    </td>
+                                    <td>
+                                        @Html.DropDownListFor(m => m.title, new SelectList(new[] { "Dr", "Mr", "Mrs", "Ms", "Prof" }
+     ), "Title", new { @class = "form-control" })
+                                        <div class="validation">
+                                            @Html.ValidationMessageFor(m => m.title, "", new { @class = "text-danger" })
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        @Html.Label("First Name")
+                                    </td>
+                                    <td>
+                                        @Html.TextBoxFor(m => m.firstName, new { @class = "form-control", @placeholder = "First Name" })
+                                        <div class="validation">
+                                            @Html.ValidationMessageFor(m => m.firstName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        @Html.Label("Last Name")
+                                    </td>
+                                    <td>
+                                       @Html.TextBoxFor(m => m.lastName, new { @class = "form-control", @placeholder = "Last Name" })
+                                    <div class="validation">
+                                        @Html.ValidationMessageFor(m => m.lastName, "", new { @class = "text-danger" })
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        @Html.Label("Select Province")
+                                    </td>
+                                    <td>
+                                        @Html.DropDownListFor(m => m.province, new SelectList(new[] { "Eastern Cape", "Kwa-Zulu Natal", "Limpopo", "Gauteng", "Mpumalanga", "North West", "Western Cape", "Northern Cape", "Free State" }
+     ), "Province", new { @class = "form-control" })
+                                        <div class="validation">
+                                            @Html.ValidationMessageFor(m => m.province, "", new { @class = "text-danger" })
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        @Html.Label("ID Number")
+                                    </td>                                                                           
+                                        @if (Model.identityNumber != null)
+                                        {
+                                            <td>
+                                                @Html.TextBoxFor(m => m.identityNumber, new { @class = "form-control", @readonly = "readonly", @placeholder = "SA ID Number" })
+                                                <div class="validation">
+                                                    @Html.ValidationMessageFor(m => m.identityNumber, "", new { @class = "text-danger" })
+                                                </div>
+                                            </td>
+                                        }
+                                        else
+                                        {
+                                            <td>
+                                                @Html.TextBoxFor(m => m.identityNumber, new { @class = "form-control", @placeholder = "SA ID Number" })
+                                                <div class="validation">
+                                                    @Html.ValidationMessageFor(m => m.identityNumber, "", new { @class = "text-danger" })
+                                                </div>
+                                            </td>
+                                        }
+                                </tr>
+                            </table>   
+                </div>
+            </div>           
+            @*<div class="col-sm-4">
+                <div class="order-message">
+                    <p>Shipping Order</p>
+                    <textarea name="message" placeholder="Notes about your order, Special Notes for Delivery" rows="16"></textarea>
+                    
+                </div>
+            </div>*@
+            <div class="col-sm-4">
+                <div class="shopper-info">
+                    <p>Contact Information</p>
+                    <table>
+                        <tr>
+                            <td width="130px">
+                                @Html.Label("Contact Number")
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(m => m.contactNumber, new { @class = "form-control", @placeholder = "Contact Number" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.contactNumber, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.Label("Physical Address")
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(m => m.streetAddress, new { @class = "form-control", @placeholder = "Street Address" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.streetAddress, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(m => m.suburb, new { @class = "form-control", @placeholder = "Suburb" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.suburb, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                @Html.TextBoxFor(m => m.city, new { @class = "form-control", @placeholder = "City/Town" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.city, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                @Html.TextBoxFor(m => m.postalCode, new { @class = "form-control", @placeholder = "Postal Code" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.postalCode, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>@Html.Label("Postal Address")</td>
+                            <td>
+                                <label><input type="checkbox" name="chkPostalAddress" checked="checked"  value="yes" onClick="show_row();"> Same as Physical address</label>                                
+                            </td>
+                        </tr>
+                        <tr id="PostalAddressInfo" name="PostalAddressInfo" style="display:none;">
+                            <td ></td>
+                            <td>
+                                @Html.TextBoxFor(m => m.postalOffice, new { @class = "form-control", @placeholder = "Postal Office" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.postalOffice, "", new { @class = "text-danger" })
+                                </div>
+                                @Html.TextBoxFor(m => m.town, new { @class = "form-control", @placeholder = "City/Town" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.town, "", new { @class = "text-danger" })
+                                </div>
+                                @Html.TextBoxFor(m => m.boxpostalCode, new { @class = "form-control", @placeholder = "Postal Code" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.boxpostalCode, "", new { @class = "text-danger" })
+                                </div>     
+                            </td>                      
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="shopper-info">
+                    <p>Online Information</p>
+                    <table>
+                        <tr>
+                            <td width="130px">
+                               @Html.Label("Email Address")
+                            </td>
+                            <td>                                
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email" })
+                                <div class="validation">
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.Label("Create Password")
+                            </td>
+                            <td>
+                               
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.Label("Confirm Password")
+                            </td>
+                            <td>                                
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", @placeholder = "Confirm Password" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                            </div>
+                            </td>
+                        </tr>                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-md-6">
+                <div class="register-req pull-left">
+                    <p>By clicking Next, I declare that I have read and understood the <a href="#">terms and conditions</a> attached to this Policy, and understand their meaning and effect, and undertake to abide and to be bound by the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                </div><!--/register-req-->
+            </div>            
+            <div class="col-sm-4 pull-right">
+                <div class="alert-danger">@TempData["Error"]</div>
+                <br />
+                <br />
+                <input type="submit" class="btn btn-default add-to-cart" value="Next" />
+            </div>
+    </div>
+}
+
+<script type="text/javascript">
+    function resetActive(event, percent) {
+        $(".progress-bar").css("width", percent + "%").attr("aria-valuenow", percent);
+        $(".progress-completed").text(percent + "%");
+
+        $("div").each(function () {
+            if ($(this).hasClass("activestep")) {
+                $(this).removeClass("activestep");
+            }
+        });
+
+        if (event.target.className == "col-md-2") {
+            $(event.target).addClass("activestep");
+        }
+        else {
+            $(event.target.parentNode).addClass("activestep");
+        }
+    }
+</script>

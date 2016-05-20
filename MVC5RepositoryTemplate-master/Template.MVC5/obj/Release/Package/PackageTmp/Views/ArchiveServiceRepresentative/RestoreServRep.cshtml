@@ -1,0 +1,65 @@
+﻿@model Template.Model.ViewModels.ArchiveServiceRepresentativeView
+
+@{
+    ViewBag.Title = "RestoreServRep";
+}
+
+<h2>Restore Service Repreesentative</h2>
+
+<h3>Are you sure you want to Restore this?</h3>
+<div>
+    <h4>Service representative infor.</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ServiceRepIdNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ServiceRepIdNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactNo)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Restore" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "GetAll")
+        </div>
+    }
+</div>
+

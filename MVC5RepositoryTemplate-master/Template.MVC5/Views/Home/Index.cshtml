@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_BootstrapLayout.basic.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @*<link href="~/Content/mpiti_css.css" rel="stylesheet" />*@
+</head>
+<body id="body">
+    <section id="slider">
+        <!--slider-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider-carousel" data-slide-to="1"></li>
+                            <li data-target="#slider-carousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-sm-6">
+                                    <h1><span>M</span>piti</h1>
+                                    <h2>Commitment</h2>
+                                    <p>We are there to give personalized quality service characterised by on time delivery and to render cost effective funeral service on a 24 hour basis. </p>
+                                    <a href="@Url.Action("About","Home")" class="btn btn-theme">More About us >></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    @*<img src="~/Images/Home/Funerals.jpg" alt="" />*@
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-sm-6">
+                                    <h1><span>M</span>piti</h1>
+                                    <h2>Responsibility</h2>
+                                    <p>We are a service corporation that is committed to providing service beyond excellence, maintaining confidentially and respect for the deceased and privacy for our client families.</p>
+                                    <a href="@Url.Action("About","Home")" class="btn btn-theme">More About us >></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    @*<img src="~/Images/Home/images (8).jpg" />*@
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="col-sm-6">
+                                    <h1><span>M</span>piti</h1>
+                                    <h2>Be wise</h2>
+                                    <p> Apply for your own policy and stay covered, Today.</p>
+                                    <a href="@Url.Action("Index","Register")" class="btn btn-theme">Apply Now >></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    @*<img src="~/Images/Home/1.jpg" />*@
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section><!--/slider-->
+</body>
+</html>

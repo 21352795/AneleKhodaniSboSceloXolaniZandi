@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Template.Data.ClientApplication>
+
+@{
+    ViewBag.Title = "Applications";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h3>Applications</h3>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-sm-3 ">
+            @Html.DropDownList("status", new SelectList(new[] { "New", "Approved", "Declined", "Incomplete" }
+                ), "All Applications", new { @class = "form-control" })            
+        </div>
+        <div class="col-sm-3"><input type="text" id="IDNum" name="IDNum" placeholder="ID Number" class="form-control" /></div>
+        <div class="col-sm-1"> <input type="submit" value="Filter" class="btn btn-success" /></div>        
+    </div>
+    <div > Showing @ViewBag.Stat | @ViewBag.Rec records</div>
+    <div class="text-danger"> @ViewBag.NotFound</div>
+    <hr />
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contactNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.emailAdress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.packageID)
+        </th>  
+        <th>
+            @Html.DisplayNameFor(model => model.dateSubmitted)
+        </th>     
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contactNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.emailAdress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.packageID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateSubmitted)
+        </td>
+        <td>
+            @Html.ActionLink("View", "ViewApplication", new { appID = item.applicationID })
+        </td>
+    </tr>
+}
+
+</table>

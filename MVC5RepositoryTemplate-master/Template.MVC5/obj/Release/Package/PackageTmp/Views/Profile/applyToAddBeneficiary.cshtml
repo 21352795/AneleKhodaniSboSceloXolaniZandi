@@ -1,0 +1,64 @@
+﻿@model Template.Model.ViewModels.BeneficiaryViewModel
+@{
+    ViewBag.Title = "Apply To Add Beneficiary";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+@using (Html.BeginForm("applyToAddBeneficiary", "Profile", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Add Beneficiary</h3>
+            </div><!-- /.box-header -->
+            <div class="box-body no-padding">
+                <table class="table table-striped">
+                    <tr>
+                        <th>ID Number</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Relationship</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.TextBoxFor(m => m.benIDNumber, new { @class = "form-control", @style = "width:170px", @placeholder = "ID Number" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.benIDNumber, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.firstName, new { @class = "form-control", @style = "width:200px", @placeholder = "First Name" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.firstName, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.lastName, new { @class = "form-control", @style = "width:200px", @placeholder = "Last Name" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.lastName, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+                        <td>
+                            @Html.DropDownListFor(m => m.relationship, new SelectList(new[] { "Spouse", "Parent", "Child", "Sibling", "Uncle", "Aunt", "Cousin", "Nephew", "Niece", "Parent-in-law", "Sibling-in-law", "Grandparent", "Grandchild" }
+     ), "Relationship", new { @class = "form-control", @style = "width:200px" })
+                            <div class="validation">
+                                @Html.ValidationMessageFor(m => m.relationship, "", new { @class = "text-danger" })
+                            </div>
+                        </td>
+                        <td>
+                            <input type="submit" class="btn btn-default add-to-cart" value="Add Beneficiary" />
+                            <div class="validation">
+                                <div class="alert-danger">@TempData["Error"]</div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>               
+            </div><!-- /.box-body -->
+        </div><!-- /.box -->
+    </div>
+
+
+}
+
+

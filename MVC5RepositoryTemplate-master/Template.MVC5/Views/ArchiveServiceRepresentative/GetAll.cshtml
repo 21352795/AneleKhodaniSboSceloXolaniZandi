@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Template.Model.ViewModels.ArchiveServiceRepresentativeView>
+
+@{
+    ViewBag.Title = "GetAll";
+}
+
+<h2>List Of Archived Service Representatives</h2>
+
+<hr />
+@ViewBag.Count Archived Service Representatives Records
+<hr />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ServiceRepIdNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            <center>Actions</center>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServiceRepIdNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Restore", "RestoreServRep", new { id=item.ServiceRepIdNo }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ServiceRepIdNo })
+        </td>
+    </tr>
+}
+
+</table>

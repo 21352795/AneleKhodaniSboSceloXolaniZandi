@@ -1,0 +1,79 @@
+﻿@model Template.Model.ViewModels.PackageView
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Search Package</h2>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Enter package name: @Html.TextBox("Name", ViewBag.FilterValue as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+
+@if (Model.Name != null)
+{
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Amount)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Amount)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Benefits)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Benefits)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Additionals)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Additionals)
+            </dd>
+        </dl>
+    </div>
+}
+
+
+
+

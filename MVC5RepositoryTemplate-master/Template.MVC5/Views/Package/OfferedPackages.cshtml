@@ -1,0 +1,209 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PackageBenefitView>
+
+@{
+    ViewBag.Title = "Offered Packages";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Offered Packages</h2>
+<style>
+    .packages
+{
+	width:100%;
+	border:0px;
+	color: #fff;
+}
+
+.packages tr
+{
+	border-bottom: 1px solid #eee;
+	background-color: #81796f;
+}
+
+.packages tr:hover
+{
+	background-color: #6b2525;
+	
+}
+
+.packages th
+{
+	font-weight: bold;
+	font-size:10pt;
+	padding-top:21px;
+	padding-bottom:21px;
+	text-align: center;
+	background-color: #dfcab2;
+	border: 0px solid #eee;
+	color:#000;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+
+
+.packages td
+{
+	text-align: center;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:5px;
+	font-size:9pt;
+	
+	
+}
+
+.packages td h2
+{
+	margin-top:11px;	
+}
+
+.packages td.header
+{
+	text-align: left;
+	width:200px;
+	font-weight: bold;
+    font-size:12px;
+	
+}
+.packages tr:hover td.header
+{
+	color: #6b2525;
+}
+
+.packages tr.footer
+{
+	height:80px;
+}
+
+.packages tr.footer td span
+{
+	min-width:80px;
+	display: inline-block;
+}
+
+.selectedpackage
+{
+	background-color:#000 !important;
+	cursor: pointer;
+	color: yellow !important;
+	text-shadow: #000 1px 1px 1px !important;
+	
+}
+
+td.selectedpackage:hover
+{
+	background-color:#222 !important;
+	
+}
+
+
+th.selectedpackage
+{
+	background-color:#222 !important;
+
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+    .table-striped-column > tbody > tr td:nth-of-type(odd) {
+        background-color: #808080;
+    }
+</style>
+<div>
+    <table class="packages table-striped-column">
+        <tr>
+            <th class="header">@Html.DisplayNameFor(model => model.Name)</th>
+            @foreach (var item in Model)
+            {
+                <th>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </th>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.packageID)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.packageID)
+                </td>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.maxBeneficiary)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.maxBeneficiary)
+                </td>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.PremiumAmount)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.PremiumAmount)
+                </td>
+            }
+        </tr>
+        <tr class="footer">
+            <td class="header"></td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.ActionLink("Buy Cover", "Index","Register",new { packID = item.packageID }, new { @class = "btn btn-default" } )
+                </td>
+            }
+        </tr>
+    </table>
+    @*Benefits*@
+    <table class="packages table-striped-column">
+        @{
+             var pb = new Template.BusinessLogic.Implementation.PackageBusiness();
+             var pbv = new Template.Model.ViewModels.PackageBenefitView();
+
+             pbv.benefit = new List<Template.Model.ViewModels.BenefitView>();
+             pbv.benefit = pb.GetAllBenefits();
+        }
+        <tr>
+            <td colspan="6" class="header"><h2>Package Benefits</h2></td>
+
+        </tr>
+        <tr>
+            <td class="header"></td>
+            @foreach (var item in Model)
+            {
+                <td> 
+                    <b>
+                    @Html.DisplayFor(modelItem => item.Name)
+                    </b>
+                </td>
+            }
+        </tr>
+        @foreach (var ben in pbv.benefit)
+        {
+            <tr>
+                <td class="header">@ben.Name</td>
+                @foreach (var item in Model)
+                {
+                    if (pb.GetBenefitByID_And_PackageID(ben.benefitID, item.packageID) != null)
+                    {
+                        <td><a href="#" class="fa fa-check fa-2x"></a></td>
+                    }
+                    else
+                    {
+                        <td><a href="#" class="fa fa-times fa-2x"></a></td>
+                    }
+
+                }
+            </tr>
+        }
+       
+    </table>
+    <!-- 2nd table -->
+</div>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Template.Model.ViewModels.ServiceRepresentativeView>
+
+@{
+    ViewBag.Title = "GetAll";
+}
+
+<h2>Service Representatives List</h2>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+</style>
+
+<p>
+    @Html.ActionLink("New Service Representative", "AddServiceRep")
+</p>
+<hr/>
+@ViewBag.Count Service Representatives Records
+<hr/>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ServiceRepIdNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            <center>Actions</center>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServiceRepIdNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditServiceRep", new { id=item.ServiceRepIdNo }) |
+            @Html.ActionLink("Archive", "Archive", new { id=item.ServiceRepIdNo })
+        </td>
+    </tr>
+}
+
+</table>

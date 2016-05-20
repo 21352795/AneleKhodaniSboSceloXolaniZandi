@@ -1,0 +1,231 @@
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.BusinessLogic.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Owin.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Model.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\bin\Release\Newtonsoft.Json.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.BusinessLogic\obj\Release\Template.BusinessLogic.pdb

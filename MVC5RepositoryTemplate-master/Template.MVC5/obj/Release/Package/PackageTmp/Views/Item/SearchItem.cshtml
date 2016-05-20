@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Template.Model.ViewModels.ItemViewModel>
+
+@{
+    ViewBag.Title = "SearchItem";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Search Item</h2>
+<h5>Item name</h5>
+@using (Html.BeginForm("SearchItem", "Item"))
+{
+    <p>
+        @Html.TextBox("ItemName") <div class="text-danger"> @ViewBag.Error</div>
+        @Html.AntiForgeryToken()
+        <div class="form-actions">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </p>
+}
+
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CanBeRented)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnRental)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservedForFuneral)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReorderLevel)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Picture)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CanBeRented)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantityInStock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OnRental)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservedForFuneral)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReorderLevel)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Picture)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+}

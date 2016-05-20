@@ -1,0 +1,53 @@
+﻿@model Template.Model.RegisterNlogin.LoginModel
+@{
+    ViewBag.Title = "Sign in";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <fieldset class="col-lg-offset-1">
+            <!-- Form Name -->
+            <legend>Sign in</legend>
+
+            <!-- Text input-->
+            <div class="control-group">
+                <label class="control-label">@Html.Label("User Name")</label>
+                <div class="controls">
+                    @Html.TextBoxFor(m => m.UserName, new {@class="form-control",@placeholder= "User Name" })
+                    <p class="help-block">@Html.ValidationMessageFor(m => m.UserName)</p>
+                </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="control-group">
+                <label class="control-label">@Html.LabelFor(m => m.Password)</label>
+                <div class="controls">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password" })
+                    <p class="help-block">@Html.ValidationMessageFor(m => m.Password)</p>
+                </div>
+            </div>
+
+
+            <div class="control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <label class="checkbox">
+                        @Html.CheckBoxFor(m => m.RememberMe) Remember Me
+                    </label>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+                <div class="col-md-offset-3">
+                    <button id="Log In" name="Log In" class="btn btn-primary">Sign In</button>
+                </div>
+            </div>
+            @Html.ActionLink("Forgot your password?", "ForgotPassword", "ForgotPassword")  |  @Html.ActionLink("Apply", "Index", "Register") for a policy 
+        </fieldset>
+       
+    }
+</div>

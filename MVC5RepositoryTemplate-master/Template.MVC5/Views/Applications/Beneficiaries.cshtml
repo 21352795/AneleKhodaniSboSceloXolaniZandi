@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Template.Data.ClientApplicationBeneficiary>
+<div class="container">
+    <div class="box">
+        <div class="box-header">
+            <h3 class="box-title">Beneficiaries</h3>
+        </div><!-- /.box-header -->
+        <div class="box-body no-padding">
+            <table class="table table-striped">
+                <tr>
+                    <th>ID Number</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Relashionship</th>
+                    <th style="width: 10px">Age</th>
+                </tr>  
+@foreach (var item in Model){
+                <tr>
+                    <td>
+                        @Html.TextBoxFor(m => item.benIDNumber, new { @class = "form-control", @style = "width:170px", @readonly = "readonly", @placeholder = "ID Number" })
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => item.firstName, new { @class = "form-control", @style = "width:200px", @readonly = "readonly", @placeholder = "First Name" })
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => item.lastName, new { @class = "form-control", @style = "width:200px", @readonly = "readonly", @placeholder = "Last Name" })
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => item.relationship, new { @class = "form-control", @style = "width:200px", @readonly = "readonly" })
+                    </td>
+                    <td style="width: 10px">
+                        @Html.TextBoxFor(m => item.age, new  { @class = "form-control", @style = "width:80px", @readonly = "readonly", @placeholder = "Last Name" })
+                    </td>                    
+                </tr>
+                }
+            </table>
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+</div>

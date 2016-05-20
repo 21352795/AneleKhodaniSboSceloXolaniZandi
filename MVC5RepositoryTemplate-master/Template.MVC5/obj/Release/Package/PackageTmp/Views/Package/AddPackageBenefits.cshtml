@@ -1,0 +1,80 @@
+﻿@model List<Template.Model.ViewModels.BenefitView>
+
+@{
+    ViewBag.Title = "AddPackageBenefits";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+<h3>Select Package Benefits</h3>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Session["Name"]
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Session["packID"]
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                R @Session["PremiumAmount"]
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Session["maxBeneficiary"]
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Select Benefits", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+               @* @Html.EditorFor(model => model.benefit, new { htmlAttributes = new { @class = "form-control" } })*@
+             @*@{
+                 var pb = new Template.BusinessLogic.Implementation.PackageBusiness();
+                 var pbv = new Template.Model.ViewModels.PackageBenefitView();
+
+                 pbv.benefit = new List<Template.Model.ViewModels.BenefitView>();
+                 pbv.benefit = pb.GetAllBenefits();
+            }*@
+                <table>
+                    @for (int item=0; item< Model.Count;item++)
+                    {
+                        <tr>
+                            <td>@Html.HiddenFor(x => Model[item].benefitID, new { @class = "form-control" })</td>
+                            <td>@Html.CheckBoxFor(x => Model[item].isBenefitSelected)</td>
+                            <td>@Html.EditorFor(x => Model[item].Name)</td>
+                        </tr>
+                    }
+                </table>
+               
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save Changes" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

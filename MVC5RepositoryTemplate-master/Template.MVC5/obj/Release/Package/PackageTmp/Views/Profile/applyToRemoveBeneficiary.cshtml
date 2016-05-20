@@ -1,0 +1,80 @@
+﻿@model Template.Model.ViewModels.BeneficiariesViewModel
+
+@{
+    ViewBag.Title = "applyToRemoveBeneficiary";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+
+<div>
+    <h4>Apply to uncover the below Beneficiary</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.benIDNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.benIDNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.relationship)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.relationship)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>       
+
+    </dl>
+
+</div>
+<table>
+@using (Html.BeginForm("applyToRemoveBeneficiary", "Profile", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <tr>
+       
+            @Html.AntiForgeryToken()
+            <td>
+                @Html.DisplayName("Please tell us why?")
+            </td>
+
+            <td>
+                <input type="text" class="form-control" name="reason" id="reason" placeholder="Reason" required="required" />
+            </td> 
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Cancel", "Beneficiaries", new { @class = "btn btn-default" })
+        </td>
+
+        <td>
+            <input type="submit" class="btn btn-default add-to-cart" value="Submit Application" />
+        </td>
+    </tr>
+}
+</table>

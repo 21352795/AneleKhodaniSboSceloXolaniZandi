@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PremiumPaymentView>
+
+@{
+    ViewBag.Title = "GetAllPremiumPayments";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Get All Premium Payments</h2>
+
+
+@using (Html.BeginForm("SearchPayment", "PremiumPayments"))
+{
+    <hr />
+    <h5>Search By ID No: </h5>
+    <p>
+        @Html.TextBox("searchid")
+        @Html.AntiForgeryToken()
+        <div class="form-actions">
+            <input type="submit" value="Search" class="btn btn-primary" placeholder="enter id number" />
+        </div>
+    </p>
+    <hr />
+}
+<p>
+<p>
+    @Html.ActionLink("Create New Payment", "AddPremiumPayment")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Month)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PolicyHolderIdNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountPaid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentFor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Month)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyHolderIdNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountPaid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentFor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentMethod)
+            </td>
+
+        </tr>
+    }
+
+</table>

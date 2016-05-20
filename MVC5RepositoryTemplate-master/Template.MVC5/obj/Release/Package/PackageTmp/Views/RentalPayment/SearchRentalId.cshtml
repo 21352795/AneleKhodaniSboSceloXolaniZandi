@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Template.Model.ViewModels.RentalViewModel>
+
+@{
+    ViewBag.Title = "SearchRentalId";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+
+<h2>Search hirings </h2>
+<h4>
+    <div cl="text-danger">@ViewBag.Error</div></h4>
+@using (Html.BeginForm("SearchRentalId", "RentalPayment"))
+{
+    <p>
+        @Html.TextBox("searchrentalid")
+        @Html.AntiForgeryToken()
+        <div class="form-actions">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </p>
+}
+
+<p>
+  
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateRented)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReturnDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateRequire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PolicyId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateRented)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReturnDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateRequire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PolicyId)
+        </td>
+        <td>
+            @Html.ActionLink("Complete Payment", "AddRentalPayment", new { id=item.RentalId  ,policyId=item.PolicyId,totalPrice=item.TotalPrice}) 
+        
+        </td>
+    </tr>
+}
+
+</table>

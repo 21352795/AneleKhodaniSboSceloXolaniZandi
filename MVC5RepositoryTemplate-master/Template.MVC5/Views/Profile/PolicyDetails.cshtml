@@ -1,0 +1,45 @@
+﻿@model Template.Model.ViewModels.PolicyDetailsViewModel
+
+@{
+    ViewBag.Title = "Policy Information";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<div>
+    <h4>@ViewBag.Title</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.policyNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.policyNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.packageName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.packageName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dateStarted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dateStarted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>

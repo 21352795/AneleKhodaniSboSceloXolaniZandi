@@ -1,0 +1,50 @@
+﻿@model Template.Model.ViewModels.ContactDetailsViewModel
+
+@{
+    ViewBag.Title = "Contact Information";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<div>
+    <h4>@ViewBag.Title</h4>
+    <hr />
+    <div class="text-success">
+        @ViewBag.Feedback
+    </div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.contactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contactNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emailAdress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emailAdress)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Lives in")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.streetAddress) @Html.DisplayFor(model => model.suburb) @Html.DisplayFor(model => model.city) @Html.DisplayFor(model => model.postalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Postal")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.postalOffice) @Html.DisplayFor(model => model.town) @Html.DisplayFor(model => model.boxpostalCode)
+        </dd>
+
+    </dl>
+</div>
+
+<div>@Html.ActionLink("Edit", "EditContactDetails")</div>

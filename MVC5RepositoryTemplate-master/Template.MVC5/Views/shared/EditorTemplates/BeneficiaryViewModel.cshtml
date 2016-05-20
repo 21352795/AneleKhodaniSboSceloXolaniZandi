@@ -1,0 +1,46 @@
+﻿
+@*@{
+    ViewBag.Title = "Beneficiary";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}*@
+
+@model Template.Model.ViewModels.BeneficiaryViewModel
+
+<!-- ko foreach: positions -->
+<fieldset>
+    <span class="editor-label">
+        @Html.LabelFor(model => model.benIDNumber)
+    </span>
+    <span class="editor-field">
+        @Html.TextBoxFor(model => model.benIDNumber, new { data_bind = "value: benIDNumber, namePath: true" })
+    </span>
+
+    <span class="editor-label">
+        @Html.LabelFor(model => model.firstName)
+    </span>
+    <span class="editor-field">
+        @Html.TextBoxFor(model => model.firstName, new { data_bind = "value: firstName, namePath: true" })
+    </span>
+    <span class="editor-label">
+        @Html.LabelFor(model => model.lastName)
+    </span>
+    <span class="editor-field">
+        @Html.TextBoxFor(model => model.lastName, new { data_bind = "value: lastName, namePath: true" })
+    </span>
+
+    <span class="editor-label">
+        @Html.LabelFor(model => model.relationship)
+    </span>
+    <span class="editor-field">
+        @Html.TextBoxFor(model => model.relationship, new { data_bind = "value: relationship, namePath: true" })
+    </span>
+
+    <span class="editor-label">
+        @Html.LabelFor(model => model.age)
+    </span>
+    <span class="editor-field">
+        @Html.TextBoxFor(model => model.age, new { data_bind = "value: age, namePath: true" })
+    </span>
+</fieldset>
+<!-- /ko -->
+

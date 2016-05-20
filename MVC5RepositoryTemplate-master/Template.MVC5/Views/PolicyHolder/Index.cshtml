@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PolicyHolderViewModel>
+
+@{
+    ViewBag.Title = "Policy Holders";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Policy Holders</h2>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-sm-2 ">
+            @Html.DropDownList("package", new SelectList(new[] { "New", "Approved", "Declined", "Incomplete" }
+                ), "All Packages", new { @class = "form-control" })
+        </div>
+        <div class="col-sm-2 ">
+            @Html.DropDownList("gender", new SelectList(new[] { "Male", "Female" }
+                ), "All Genders", new { @class = "form-control" })
+        </div>
+        <div class="col-sm-2 ">
+            @Html.DropDownList("province", new SelectList(new[] { "Eastern Cape", "Kwa-Zulu Natal", "Limpopo", "Gauteng", "Mpumalanga", "North West", "Western Cape", "Northern Cape", "Free State" }
+                ), "All Provinces", new { @class = "form-control" })
+        </div>
+        <div class="col-sm-3"><input type="text" id="IDNum" name="IDNum" placeholder="ID Number" class="form-control" /></div>
+        <div class="col-sm-1"> <input type="submit" value="Filter" class="btn btn-success" /></div>
+    </div>
+    <div> Showing @ViewBag.Stat | @ViewBag.Rec records</div>
+    <div class="text-danger"> @ViewBag.NotFound</div>
+    <hr />
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.policyNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dateStarted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.policyNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateStarted)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.policyNo })
+        </td>
+    </tr>
+}
+
+</table>

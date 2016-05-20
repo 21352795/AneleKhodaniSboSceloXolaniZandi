@@ -1,0 +1,119 @@
+﻿@model Template.Model.ViewModels.ItemViewModel
+
+@{
+    ViewBag.Title = "AddItem";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Add Item</h2>
+
+@using (Html.BeginForm("AddItem", "Item",null,FormMethod.Post,new {enctype = "multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.DropDownListFor(i => i.CategoryName, new SelectList(ViewBag.Category, "CategoryName", "CategoryName"), "select category",
+            new { @class = "form-control col-md-4" })
+            @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CanBeRented, htmlAttributes: new {@class = "control-label col-md-2"})
+        <div class="col-md-4">
+            <div class="checkbox">
+                @Html.EditorFor(model => model.CanBeRented)
+                @Html.ValidationMessageFor(model => model.CanBeRented, "", new {@class = "text-danger"})
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Price, new {htmlAttributes = new {@class = "form-control"}})
+            @Html.ValidationMessageFor(model => model.Price, "", new {@class = "text-danger"})
+        </div>
+        <div class="text-danger">
+            @ViewBag.P
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.QuantityInStock, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.QuantityInStock, new {htmlAttributes = new {@class = "form-control"}})
+            @Html.ValidationMessageFor(model => model.QuantityInStock, "", new {@class = "text-danger"})
+        </div>
+        <div class="text-danger">
+            @ViewBag.Q
+        </div>
+    </div>
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.OnRental, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.OnRental, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.OnRental, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.ReservedForFuneral, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.ReservedForFuneral, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ReservedForFuneral, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.ReorderLevel, htmlAttributes: new {@class = "control-label col-md-2"})
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.ReorderLevel, new {htmlAttributes = new {@class = "form-control"}})
+            @Html.ValidationMessageFor(model => model.ReorderLevel, "", new {@class = "text-danger"})
+        </div>
+    </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Picture, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            <input type="file" id="upload" name="upload" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|images/*" class="form-control" required="required" />
+            @Html.ValidationMessageFor(model => model.Picture, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-4">
+            <input type="submit" value="Create" class="btn btn-success" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

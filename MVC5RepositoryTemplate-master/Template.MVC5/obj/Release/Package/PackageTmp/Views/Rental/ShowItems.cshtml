@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Template.Model.ViewModels.ItemViewModel>
+
+@{
+    ViewBag.Title = "ShowItems";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Show Items</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+        @Html.DisplayNameFor(model => model.ItemCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.CanBeRented)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnRental)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReservedForFuneral)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReorderLevel)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Picture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.CanBeRented)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantityInStock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OnRental)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReservedForFuneral)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReorderLevel)
+                </td>*@
+
+            <td>
+                @if (item.Picture != null)
+                {
+                    var base64 = Convert.ToBase64String(item.Picture);
+                    var imgSrc = string.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@imgSrc" width="50" height="60"/>
+                }
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Hire", "AddRental", new {id = item.ItemCode, price = item.Price ,name=item.Name})
+
+            </td>
+        </tr>
+    }
+
+</table>

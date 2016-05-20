@@ -1,0 +1,321 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PackageBenefitView>
+
+@{
+    ViewBag.Title = "Choose Package";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+<style>
+    .packages
+{
+	width:100%;
+	border:0px;
+	color: #fff;
+}
+
+.packages tr
+{
+	border-bottom: 1px solid #eee;
+	background-color: #81796f;
+}
+
+.packages tr:hover
+{
+	background-color: #6b2525;
+	
+}
+
+.packages th
+{
+	font-weight: bold;
+	font-size:10pt;
+	padding-top:21px;
+	padding-bottom:21px;
+	text-align: center;
+	background-color: #dfcab2;
+	border: 0px solid #eee;
+	color:#000;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+
+
+.packages td
+{
+	text-align: center;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:5px;
+	font-size:9pt;
+	
+	
+}
+
+.packages td h2
+{
+	margin-top:11px;	
+}
+
+.packages td.header
+{
+	text-align: left;
+	width:200px;
+	font-weight: bold;
+    font-size:12px;
+	
+}
+.packages tr:hover td.header
+{
+	color: #6b2525;
+}
+
+.packages tr.footer
+{
+	height:80px;
+}
+
+.packages tr.footer td span
+{
+	min-width:80px;
+	display: inline-block;
+}
+
+.selectedpackage
+{
+	background-color:#000 !important;
+	cursor: pointer;
+	color: yellow !important;
+	text-shadow: #000 1px 1px 1px !important;
+	
+}
+
+td.selectedpackage:hover
+{
+	background-color:#222 !important;
+	
+}
+
+
+th.selectedpackage
+{
+	background-color:#222 !important;
+
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+    .table-striped-column > tbody > tr td:nth-of-type(odd) {
+        background-color: #808080;
+    }
+</style>
+<!-- Steps ProgressBar - START -->
+<div class="container" style="margin-top: 100px; margin-bottom: 100px;">
+    <div class="row">
+        <div class="progress" id="progress1">
+            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+            </div>
+            <span class="progress-type">Policy Application | Overall Progress</span>
+            <span class="progress-completed">25%</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row step">
+            <a href="@Url.Action("Index","Register")">
+                <div id="div1" class="col-md-2 passed" onclick="javascript: resetActive(event, 0);">
+                    <span class="fa fa-check"></span>
+                    <p>Personal</p>
+                </div>
+            </a>
+            <div class="col-md-2 activestep" onclick="javascript: resetActive(event, 25);" >
+                <span class="fa fa-pencil"></span>
+                <p>Plan</p>
+            </div>
+            <div class="col-md-2">
+                <span class="fa fa-pencil"></span>
+                <p>Beneficiaries</p>
+            </div>
+            <div class="col-md-2">
+                <span class="fa fa-cloud-upload"></span>
+                <p>Submit Documents</p>
+            </div>
+
+            <div id="last" class="col-md-2">
+                <span class="fa fa-star"></span>
+                <p>Finish</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Steps ProgressBar - END -->
+
+<div>
+    <table class="packages table-striped-column">
+        <tr>
+            <th class="header">@Html.DisplayNameFor(model => model.Name)</th>
+            @foreach (var item in Model)
+            {
+                <th>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </th>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.packageID)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.packageID)
+                </td>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.maxBeneficiary)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.maxBeneficiary)
+                </td>
+            }
+        </tr>
+        <tr>
+            <td class="header">@Html.DisplayNameFor(model => model.PremiumAmount)</td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.PremiumAmount)
+                </td>
+            }
+        </tr>
+        <tr class="footer">
+            <td class="header"></td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    @Html.ActionLink("Select Plan", "ChosenPackage", new { packID = item.packageID }, new { @class = "btn btn-default" })                   
+                </td>
+            }
+        </tr>
+    </table>
+    @*Benefits*@
+    <table class="packages table-striped-column">
+        @{
+            var pb = new Template.BusinessLogic.Implementation.PackageBusiness();
+            var pbv = new Template.Model.ViewModels.PackageBenefitView();
+
+            pbv.benefit = new List<Template.Model.ViewModels.BenefitView>();
+            pbv.benefit = pb.GetAllBenefits();
+        }
+        <tr>
+            <td colspan="6" class="header"><h2>Package Benefits</h2></td>
+
+        </tr>
+        <tr>
+            <td class="header"></td>
+            @foreach (var item in Model)
+            {
+                <td>
+                    <b>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </b>
+                </td>
+            }
+        </tr>
+        @foreach (var ben in pbv.benefit)
+        {
+            <tr>
+                <td class="header">@ben.Name</td>
+                @foreach (var item in Model)
+                {
+                    if (pb.GetBenefitByID_And_PackageID(ben.benefitID, item.packageID) != null)
+                    {
+                        <td><a href="#" class="fa fa-check fa-2x"></a></td>
+                    }
+                    else
+                    {
+                        <td><a href="#" class="fa fa-times fa-2x"></a></td>
+                    }
+
+                }
+            </tr>
+        }
+
+    </table>
+    <!-- 2nd table -->
+</div>
+@Html.ActionLink("   Back", "Index", "", new { @class = "btn btn-default add-to-cart form-control" })
+
+@* ====================================================================== *@
+
+<section id="cart_items"> @* pacakges *@
+    <div class="container">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Shopping Cart</li>
+            </ol>
+        </div>
+        <div class="table-responsive cart_info">
+            <table class="table table-condensed">
+                <thead>
+                    <tr class="cart_menu">
+                        <td class="image">Item</td>
+                        <td class="description"></td>
+                        <td class="price">Price</td>
+                        <td class="quantity">Quantity</td>
+                        <td class="total">Total</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cart_product">
+                            <a href=""><img src="images/cart/one.png" alt=""></a>
+                        </td>
+                        <td class="cart_description">
+                            <h4><a href="">Casket</a></h4>
+                            <p>Web ID: 1089772</p>
+                        </td>
+                        <td class="cart_price">
+                            <p>R5 900</p>
+                        </td>
+                        <td class="cart_quantity">
+                            <div class="cart_quantity_button">                                
+                                <a class="cart_quantity_down" href=""> - </a>
+                                <input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+                                <a class="cart_quantity_up" href=""> + </a>
+                            </div>
+                        </td>
+                        <td class="cart_total">
+                            <p class="cart_total_price">R5 900</p>
+                        </td>
+                        <td class="cart_delete">
+                            <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+                        </td>
+                    </tr>                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section> <!--/#pacakges-->
+<script type="text/javascript">
+    function resetActive(event, percent) {
+        $(".progress-bar").css("width", percent + "%").attr("aria-valuenow", percent);
+        $(".progress-completed").text(percent + "%");
+
+        $("div").each(function () {
+            if ($(this).hasClass("activestep")) {
+                $(this).removeClass("activestep");
+            }
+        });
+
+        if (event.target.className == "col-md-2") {
+            $(event.target).addClass("activestep");
+        }
+        else {
+            $(event.target.parentNode).addClass("activestep");
+        }
+    }
+</script>

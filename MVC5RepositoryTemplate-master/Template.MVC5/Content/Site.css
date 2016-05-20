@@ -1,0 +1,131 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/***************************packages **********************/
+
+.packages
+{
+	width:100%;
+	border:0px;
+	color: #fff;
+}
+
+.packages tr
+{
+	border-bottom: 1px solid #eee;
+	background-color: #81796f;
+}
+
+.packages tr:hover
+{
+	background-color: #6b2525;
+	
+}
+
+.packages th
+{
+	font-weight: bold;
+	font-size:10pt;
+	padding-top:21px;
+	padding-bottom:21px;
+	text-align: center;
+	background-color: #dfcab2;
+	border: 0px solid #eee;
+	color:#000;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+
+
+.packages td
+{
+	text-align: center;
+	padding-top:11px;
+	padding-bottom:11px;
+	padding-left:5px;
+	font-size:9pt;
+	
+	
+}
+
+.packages td h2
+{
+	margin-top:11px;	
+}
+
+.packages td.header
+{
+	text-align: left;
+	width:200px;
+	font-weight: bold;
+    font-size:12px;
+	
+}
+.packages tr:hover td.header
+{
+	color: #6b2525;
+}
+
+.packages tr.footer
+{
+	height:80px;
+}
+
+.packages tr.footer td span
+{
+	min-width:80px;
+	display: inline-block;
+}
+
+.selectedpackage
+{
+	background-color:#000 !important;
+	cursor: pointer;
+	color: yellow !important;
+	text-shadow: #000 1px 1px 1px !important;
+	
+}
+
+td.selectedpackage:hover
+{
+	background-color:#222 !important;
+	
+}
+
+
+th.selectedpackage
+{
+	background-color:#222 !important;
+
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.table-striped-column > tbody > tr td:nth-of-type(odd) {
+  background-color: #808080;
+}

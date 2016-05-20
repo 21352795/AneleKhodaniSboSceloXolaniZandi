@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PaymentView>
+
+
+
+
+<h2>Searched Payment Found</h2>
+
+@using (Html.BeginForm("SearchPayment", "Payment"))
+{
+
+}
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PolicyHolderIdNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountPaid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentFor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </th>
+        <th></th>
+    </tr>
+
+
+
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyHolderIdNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountPaid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentFor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentMethod)
+            </td>
+            <td>
+              
+
+
+
+        </tr>
+
+    }
+
+</table><div>
+    @Html.ActionLink("Back to List", "GetAllPayments")
+</div>

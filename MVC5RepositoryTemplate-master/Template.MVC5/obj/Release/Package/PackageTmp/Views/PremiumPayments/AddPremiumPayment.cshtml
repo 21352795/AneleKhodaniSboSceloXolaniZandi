@@ -1,0 +1,83 @@
+﻿@model Template.Model.ViewModels.PremiumPaymentView
+
+@{
+    ViewBag.Title = "AddPremiumPayment";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Create Premium Payment</h2>
+<h4><div>@ViewBag.Error</div></h4>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PolicyHolderIdNo, new { htmlAttributes = new { @class = "form-control", @placeholder = "Policy Holder ID Number" } })
+                @Html.ValidationMessageFor(model => model.PolicyHolderIdNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.Month, new SelectList(new[] { "January", "Febraury", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }
+     ), "--Select Month--", new { @class = "form-control" })
+                <div class="validation">
+                    @Html.ValidationMessageFor(m => m.Month, "", new { @class = "text-danger" })
+                    <div>@ViewBag.Month</div>
+                </div>
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
+
+                   @Html.DropDownListFor(m => m.Month, new SelectList(new[] { "January", "Febraury", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }
+            ), "--Select Month--", new { @class = "form-control" })
+                   <div class="validation">
+                       @Html.ValidationMessageFor(m => m.Month, "", new { @class = "text-danger" })
+                   </div>
+               </div>*@
+
+
+
+
+
+
+
+
+        <div class="form-group">
+
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AmountPaid, new { htmlAttributes = new { @class = "form-control", @placeholder = "Amount Paid" } })
+                @Html.ValidationMessageFor(model => model.AmountPaid, "", new { @class = "text-danger" })
+                <div>@ViewBag.Amount</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Create" class="btn btn-success"/>
+            </div>
+        </div>
+      
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "GetAllPremiumPayments")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

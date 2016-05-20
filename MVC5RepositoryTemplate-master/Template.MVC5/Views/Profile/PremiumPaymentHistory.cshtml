@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PersonalPaymentHistory>
+
+@{
+    ViewBag.Title = "PremiumPaymentHistory";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Premium Payment History</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-sm-2 ">
+            @Html.DropDownList("month", new SelectList(new[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }
+                ), "All Months", new { @class = "form-control" })
+        </div>
+        <div class="col-md-offset-4">
+            <input type="submit" value="Filter" class="btn btn-success" />
+        </div>
+    </div>
+    <hr />
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Month)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountPaid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentFor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Month)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AmountPaid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentFor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentMethod)
+        </td>
+    </tr>
+}
+
+</table>
+
+<div class="text-danger">@TempData["Error"]</div>

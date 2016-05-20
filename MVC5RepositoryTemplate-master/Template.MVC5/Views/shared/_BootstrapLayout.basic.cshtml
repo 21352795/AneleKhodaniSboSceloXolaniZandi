@@ -1,0 +1,507 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | Mpiti Funeral Undertakers</title>
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/Content/price-range.css" rel="stylesheet" />
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <header id="header">
+        <!--header-->
+        <div class="header_top navbar-fixed-top">
+            <!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href=""><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                                <li><a href=""><i class="fa fa-envelope"></i> info@mpitifuneralundertakers.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                @*<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href=""><i class="fa fa-dribbble"></i></a></li>*@
+                                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle">
+            <!--header-middle-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo pull-left">
+                            <a href="@Url.Action("Index","Home")"><img src="~/images/home/Mpiti Funeral Palour Logo.png" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="shop-menu pull-right">
+                            <ul class="nav navbar-nav">
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>                                
+                                <li>@Html.ActionLink("Our Packages", "OfferedPackages", "Package")</li>
+                                <li><a href="cart.html"> Cart</a></li>
+                                <li><a href="@Url.Action("Contact","Home")"> Contact</a></li>
+                                <li><a href="@Url.Action("About","Home")"> About</a></li>
+                                @if (Request.IsAuthenticated)
+                                {
+                                    using (Html.BeginForm("LogOff", "Login", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Sign out</a></li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li>@Html.ActionLink("Apply", "Index", "Register", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                                    <li>@Html.ActionLink("Sign in", "Index", "Login", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+    </header><!--/header-->
+
+    @if (User.IsInRole("Admin") || User.IsInRole("Service Representative") || User.IsInRole("Policy Holder"))
+    {
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="left-sidebar">
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="panel-group category-products" id="accordian">
+                                    <h2>Main Navigation</h2>
+                                    <!--Admin main navigation-->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#roles">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Roles
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="roles" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("AddRole", "Roles")">Add a Role</a></li>
+                                                    <li><a href="@Url.Action("Index", "Roles")">List of Roles</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Packages">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Packages
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Packages" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("AddPackage", "Package")">Add a Package</a></li>
+                                                    <li><a href="@Url.Action("GetAll", "Package")">List of Packages</a></li>
+                                                    <li><a href="@Url.Action("Search", "Package")">Search Packages</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Staff">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Staff
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Staff" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("GetAll", "ServiceRepresentative")">List Staff Members</a></li>
+                                                    <li><a href="@Url.Action("AddServiceRep", "ServiceRepresentative")">Add Staff Member</a></li>
+                                                    <li><a href="@Url.Action("SearchServRep", "ServiceRepresentative")">Search</a></li>
+                                                    <li><a href="@Url.Action("GetAll", "ArchiveServiceRepresentative")">Archived Staff</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a href="#">Kids</a></h4>
+                                        </div>
+                                    </div>
+                                </div><!--/Admin main navigation-->
+                            }
+                            @if (User.IsInRole("Service Representative"))
+                            {
+                                <div class="panel-group category-products" id="accordian">
+                                    <h2>Main Navigation</h2>
+                                    <!--Service Representative navigation-->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Applications">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Applications
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Applications" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("Index", "Applications")">New Applications</a></li>
+                                                    <li><a href="@Url.Action("Index", "Applications")">All Applications</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Items">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Items
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Items" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("AddCategory", "Category")">Add Item Category</a></li>
+                                                    <li><a href="@Url.Action("Index", "Category")">View Item Categories</a></li>
+                                                    <li><a href="@Url.Action("AddItem", "Item")">Add an Item</a></li>
+                                                    <li><a href="@Url.Action("Index", "Item")">View All Items</a></li>
+                                                    <li><a href="@Url.Action("SearchItem", "Item")">Search</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Hirings">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Hirings
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Hirings" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("Index", "Rental")">All Hirings</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Payments">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Payments
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Payments" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("GetAllPayments", "Payment")">All Payments</a></li>
+                                                    <li><a href="@Url.Action("SearchRentalId", "RentalPayment")">Hiring Payments</a></li>
+                                                    <li><a href="@Url.Action("GetAllPremiumPayments", "PremiumPayments")">Premium Payments</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a href="#">Kids</a></h4>
+                                        </div>
+                                    </div>
+                                </div><!--/Service Representative navigation-->
+                            }
+                            @if (User.IsInRole("Policy Holder"))
+                            {
+                                <div class="panel-group category-products" id="accordian">
+                                    <h2>Profile</h2>
+                                    <!--Policy Holder navigation-->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Packages">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Basic Information
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Packages" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("PersonalDetails", "Profile")">Personal</a></li>
+                                                    <li><a href="@Url.Action("Beneficiaries", "Profile")">Beneficiaries</a></li>
+                                                    <li><a href="@Url.Action("ContactDetails", "Profile")">Contact Information</a></li>
+                                                    <li><a href="@Url.Action("PolicyDetails", "Profile")">Policy Information</a></li>                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Account">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Account Settings
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Account" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("Index","ChangePassword")">Change Password</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#AccountPayment">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Payment
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="AccountPayment" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="@Url.Action("GetAllPayments", "Profile")">View Payment History</a></li>
+                                                    <li><a href="@Url.Action("PremiumPaymentHistory", "Profile")">View Premium Payments</a></li>
+                                                    <li><a href="@Url.Action("SearchRentalId", "Profile")">View Hiring Payments</a></li>
+                                                    <li><a href="#">Pay</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordian" href="#Docs">
+                                                    <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                                    Documents
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="Docs" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="#">Contract</a></li>
+                                                    <li><a href="#">Terms & Conditions</a></li>
+                                                    <li><a href="#">Privacy Policy</a></li>
+                                                    <li><a href="#">Refund Policy</a></li>
+                                                    <li><a href="#">Billing System</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a href="@Url.Action("EventViewer", "Profile")">Event Viewer</a></h4>
+                                        </div>
+                                    </div>
+                                </div><!--/Policy Holder navigation-->
+                            }
+                        </div>
+                    </div>
+                    <div class="col-sm-9 padding-right">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+    else
+    {
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+        </div>
+    }
+
+    <footer id="footer">
+        <!--Footer-->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="companyinfo">
+                            <h2><span>M</span>piti</h2>
+                            <p>Quality in life. Dignity in death.</p>
+                        </div>
+                    </div>
+                    @*<div class="col-sm-7">
+                            <div class="col-sm-3">
+                                <div class="video-gallery text-center">
+                                    <a href="#">
+                                        <div class="iframe-img">
+                                            <img src="images/home/iframe3.png" alt="" />
+                                        </div>
+                                        <div class="overlay-icon">
+                                            <i class="fa fa-play-circle-o"></i>
+                                        </div>
+                                    </a>
+                                    <p>Circle of Hands</p>
+                                    <h2>24 DEC 2014</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="video-gallery text-center">
+                                    <a href="#">
+                                        <div class="iframe-img">
+                                            <img src="images/home/iframe4.png" alt="" />
+                                        </div>
+                                        <div class="overlay-icon">
+                                            <i class="fa fa-play-circle-o"></i>
+                                        </div>
+                                    </a>
+                                    <p>Circle of Hands</p>
+                                    <h2>24 DEC 2014</h2>
+                                </div>
+                            </div>
+                        </div>*@
+                    @*<div class="col-sm-3">
+                            <div class="address">
+                                <img src="images/home/map.png" alt="" />
+                                <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+                            </div>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>Service</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="">Online Help</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Application Status</a></li>
+                                <li><a href="">Order Status</a></li>
+                                <li><a href="">FAQ’s</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    @*<div class="col-sm-2">
+                            <div class="single-widget">
+                                <h2>Quick Shop</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="">-------</a></li>
+                                    <li><a href="">-------</a></li>
+                                    <li><a href="">-------</a></li>
+                                    <li><a href="">-------</a></li>
+                                    <li><a href="">-------</a></li>
+                                </ul>
+                            </div>
+                        </div>*@
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>Policies</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="">Terms of Use</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Refund Policy</a></li>
+                                <li><a href="">Billing System</a></li>
+                                @*<li><a href="">Ticket System</a></li>*@
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="single-widget">
+                            <h2>About Us</h2>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="">Company Information</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Store Location</a></li>
+                                <li><a href="">Affillate Program</a></li>
+                                <li><a href="">Copyright</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <div class="single-widget">
+                            <h2>Subscribe</h2>
+                            <form action="#" class="searchform">
+                                <input type="text" placeholder="Your email address" />
+                                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                                <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <p class="pull-left">Copyright &copy; @DateTime.Now.Year - Mpiti Funeral Undertakers Inc. All rights reserved.</p>
+                    <p class="pull-right">Designed by <span><a target="_blank" href="#">The Indomitables</a></span></p>
+                </div>
+            </div>
+        </div>
+
+    </footer><!--/Footer-->
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")*@
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/price-range.js"></script>
+    <script src="~/Scripts/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Template.Model.ViewModels.ServiceRepresentativeView>
+
+@{
+    ViewBag.Title = "SearchServRep";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Search Service Rep</h2>
+<h5>service representative no.</h5>
+@using (Html.BeginForm("SearchServRep", "ServiceRepresentative"))
+{
+<p>
+    @Html.TextBox("ServRepId")
+    @Html.AntiForgeryToken()
+    <div class="form-actions">
+        
+        <input type="submit" value="Search" class="btn btn-primary"/>
+        <div class="text-danger">@ViewBag.Error</div>
+    </div>
+</p>
+}
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ServiceRepIdNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ServiceRepIdNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditServiceRep", new { id = item.ServiceRepIdNo }) |
+            @Html.ActionLink("Archive", "Archive", new { id = item.ServiceRepIdNo })
+        </td>
+    </tr>
+}
+
+</table>

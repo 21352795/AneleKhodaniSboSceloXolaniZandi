@@ -1,0 +1,96 @@
+﻿@model Template.Model.ViewModels.RentalViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Hiring Details </h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PolicyId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PolicyId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RentalId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RentalId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateRented)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateRented)
+        </dd>
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.ReturnDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ReturnDate)
+            </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateRequire)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateRequire)
+        </dd>
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.Fine)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Fine)
+            </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItemCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItemCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+
+        <dd style="color: orange; font-size: large">
+            <p>
+                in order to complete your hiring process, please submit your hiring id and the prescribed Total price at our offices.
+            </p>
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.RentalId }) |*@
+   @* @Html.ActionLink("Make payment","SearchRentalId","RentalPayment");*@
+</p>

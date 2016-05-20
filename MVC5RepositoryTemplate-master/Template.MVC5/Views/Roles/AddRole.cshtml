@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Create Role";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="shopper-informations">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="shopper-info">
+                    <p>Create a Role</p>
+
+                    <table>
+                        <tr>
+                            <td width="120px">
+                                @Html.Label("Role Name")
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Role Name" required="required" name="name" id="name" class="form-control" />
+                                <div class="validation">
+                                   @ViewBag.Result
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                <input type="submit" value="Create Role" class="btn btn-default add-to-cart" />
+                            </td>
+                        </tr>
+                    </table>
+                    @Html.ActionLink("Go to List of Roles", "Index")
+                </div>
+            </div>      
+        </div>
+    </div>
+    //========================================    
+}
+

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Template.Model.ViewModels.PackageView>
+
+@{
+    ViewBag.Title = "GetAll";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>GetAll</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PremiumAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.maxBeneficiary)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PremiumAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.maxBeneficiary)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditPackage", new { id=item.PackageId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PackageId })           
+        </td>
+    </tr>
+}
+
+</table>

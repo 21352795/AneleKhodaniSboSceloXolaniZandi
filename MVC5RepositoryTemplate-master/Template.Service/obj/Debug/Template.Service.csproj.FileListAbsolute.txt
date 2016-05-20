@@ -1,0 +1,412 @@
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll.config
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.pdb
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.dll
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.dll
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.pdb
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.xml
+E:\Template\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\Template\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+E:\Template\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.dll
+E:\Template\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - Without MVC Layer\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\cassimv.PCWATCH.000\Desktop\Template - With MVC Layer And ASP.NET Identity - try this\Template.BusinessLogic\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 00\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 01\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 05\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 06\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 07\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 1\V 08\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\Scelo T Nyembe\Desktop\Final\Backup\V 12 - Copy - Copy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver02\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+D:\Documents\IT III\Indomitables\Increment 2\Code\Inc02-ver03\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver04\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver07 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Workstation\Inc02-ver08 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver09 - deploy\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 -\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver10 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll.config
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Service.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Template.Data.pdb
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.csprojResolveAssemblyReference.cache
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.dll
+C:\Users\A_Maphetshana\Desktop\Inc02-ver11 - b\MVC5RepositoryTemplate-master\Template.Service\obj\Debug\Template.Service.pdb

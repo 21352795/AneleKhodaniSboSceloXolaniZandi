@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Template.Model.ViewModels.RentalItemViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/_BootstrapLayout.basic.cshtml";
+}
+
+<h2>Hired items</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RentaItemId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rentalId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RentaItemId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rentalId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+
+        @*<td>
+            
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+    </tr>
+}
+
+</table>
