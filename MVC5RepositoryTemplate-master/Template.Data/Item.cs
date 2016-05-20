@@ -18,7 +18,7 @@ namespace Template.Data
         public int QuantityInStock { get; set; }
         public int OnRental { get; set; }
         public int ReservedForFuneral { get; set; }
-        public int ReorderLevel { get; set; }
+        //public int ReorderLevel { get; set; }
         public Byte []Picture { get; set; }
         public double Price { get; set; }
 

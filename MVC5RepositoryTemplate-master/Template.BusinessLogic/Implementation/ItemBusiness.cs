@@ -37,7 +37,7 @@ namespace Template.BusinessLogic.Implementation
                     CanBeRented = x.CanBeRented,
                     OnRental = x.OnRental,
                     ReservedForFuneral = x.ReservedForFuneral,
-                    ReorderLevel = x.ReorderLevel,
+                    //ReorderLevel = x.ReorderLevel,
                     Picture = x.Picture,
                     Price = x.Price,
 
@@ -87,7 +87,7 @@ namespace Template.BusinessLogic.Implementation
                     itmViewModel.CanBeRented = itm.CanBeRented;
                     itmViewModel.OnRental = itm.OnRental;
                     itmViewModel.QuantityInStock = itm.QuantityInStock;
-                    itmViewModel.ReorderLevel = itm.ReorderLevel;
+                   // itmViewModel.ReorderLevel = itm.ReorderLevel;
                     itmViewModel.ReservedForFuneral = itm.ReservedForFuneral;
                     itmViewModel.Picture = itm.Picture;
                     itmViewModel.Price = itm.Price;
@@ -166,7 +166,7 @@ namespace Template.BusinessLogic.Implementation
                     CanBeRented = objItemView.CanBeRented,
                     OnRental = objItemView.OnRental,
                     ReservedForFuneral = objItemView.ReservedForFuneral,
-                    ReorderLevel = objItemView.ReorderLevel,
+                    //ReorderLevel = objItemView.ReorderLevel,
                     Picture = objItemView.Picture,
                     Price = objItemView.Price,
                 };
@@ -195,7 +195,7 @@ namespace Template.BusinessLogic.Implementation
                     itm.CanBeRented = model.CanBeRented;
                     itm.OnRental = model.OnRental;
                     itm.QuantityInStock = model.QuantityInStock;
-                    itm.ReorderLevel = model.ReorderLevel;
+                  //  itm.ReorderLevel = model.ReorderLevel;
                     itm.ReservedForFuneral = model.ReservedForFuneral;
                     itm.Picture = model.Picture;
                     itm.Price = model.Price;

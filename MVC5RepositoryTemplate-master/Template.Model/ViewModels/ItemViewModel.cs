@@ -41,9 +41,9 @@ namespace Template.Model.ViewModels
         [Display(Name = "Reserved for funeral")]
         public int ReservedForFuneral { get; set; }
 
-        [Required]
-        [Display(Name = "Re-order level")]
-        public int ReorderLevel { get; set; }
+        //[Required]
+        //[Display(Name = "Re-order level")]
+        //public int ReorderLevel { get; set; }
 
         [Required]
         [Display(Name = "Picture")]
